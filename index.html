@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Bank</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MY Bank</h1>
+
+        <div id="welcome">
+            <hr>
+            <h1>Bank Account System</h1>
+            <p><b> Enter your account number:</b></p>
+            <input type="text" id="account-number" placeholder="Enter your account number">
+            <button id="login-button">Login</button>
+        </div>
+
+        <div id="account-options" style="display:none;">
+            <h2 id="customer-name"></h2> <!-- This will show the name and account number -->
+            <button id="deposit-button">Deposit</button>
+            <button id="withdraw-button">Withdraw</button>
+            <button id="check-balance-button">Check Balance</button>
+            <button id="logout-button">Logout</button>
+        
+            <!-- Amount input field and transaction button -->
+            <div id="amount-section" style="display:none;">
+                <input type="number" id="amount-input" placeholder="Enter amount" />
+                <button id="submit-transaction">Submit</button>
+            </div>
+        
+           
+        
+
+            <!-- Back button -->
+            <button id="back-button" style="display:none;">Back</button>
+
+           <div id="transaction-result" style="display:none;">
+                <b><p id="result-message"></p></b>
+            </div>
+        </div>
+    </div>
+
+    <script src="bank.js"></script>
+</body>
+</html>

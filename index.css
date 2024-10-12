@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #D8EFD3; /* Light pink background */
+    color: #FFEB00; /* Bright yellow text for contrast */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 6.5cm auto;
+    padding: 40px;
+    background-color: #7EACB5; /* Pink for the container */
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* Bold shadow for depth */
+    border: 2px solid #FFD700; /* Yellow border */
+    container: center;
+}
+
+h1 {
+    font-size: 32px;
+    color: #D2FF72; /* Hot pink for headings */
+    margin-bottom: 25px;
+}
+
+.content-box {
+    margin-bottom: 20px;
+    color: #fcfcfc; /* Light yellow for content */
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #FFD700; /* Border to match container */
+    border-radius: 10px;
+    background-color: #b4e47d; /* Hot pink for input background */
+font-size: large;
+    color: #646060; /* Cornsilk for text color */
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #FFEC8B; /* Lighter yellow for focus border */
+    background-color: #BEDC74; /* Lighter pink background on focus */
+    outline: none;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #FFD700; /* Bright yellow for buttons */
+    color: #0D7C66; /* Hot pink text color */
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+    background-color: #f5ecc3; /* Light yellow on hover */
+    transform: translateY(-3px); /* Subtle lift on hover */
+}
+
+#transaction-result {
+    margin-top: 25px;
+    color: #C96868; /* Matching result text color with the heading */
+}
+
+#account-options, #transaction-result, #back-button {
+    display: none;
+}
